@@ -99,7 +99,7 @@ const Contact = () => {
                   <p
                     className={classes.heropage_txt_container_contact_text_txt}
                   >
-                   +216 50 986 792
+                   +49 176 47922328
                   </p>
                 </div>
               </div>

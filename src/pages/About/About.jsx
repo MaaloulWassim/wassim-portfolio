@@ -56,7 +56,7 @@ const About = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href="./images/about/wassim-cv.pdf"
+                  href="./images/about/Wassim_Maaloul_cv.pdf"
                   download
                 >
                   Download CV
@@ -82,21 +82,18 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-                My name is Wassim Maaloul 25 years old from Tunisia, I am a Software Engineer and
-                Full stack Developer. I have a bachelor degree in software engineering (National Engineer Diploma). I
-                speak arabic (maternal language), english, french and German.
+              My name is Wassim Maaloul, a 25-year-old Software Engineer and Full Stack Developer from Tunisia. I hold a bachelor's degree in Software Engineering (National Engineer Diploma) and am currently based in Germany as a student, actively seeking job opportunities.
               </p>
 
               <p>
-              I have completed two internships as a software engineer, one in 2022 for 2 months, and the most recent one in 2023 for 6 months in Tunis, Tunisia. 
+              Proficient in Arabic (my native language), as well as English, French, and German, I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
 
               </p>
 
               <p>
-                My passions are: web development, software development, cloud architecture, web3 and blockchain development, 3D animation, graphic design,
-                 cinema, manga, listen to music, football, boxing and
-                magic tricks.
+              My professional interests span a wide spectrum, including web development, software development, cloud architecture, web3 and blockchain development. Beyond the tech realm, I'm also passionate about 3D animation, graphic design, cinema, manga, and indulge in hobbies like listening to music, football, boxing, and even performing magic tricks. 
               </p>
+              <p>Eager to apply my skills and contribute to innovative projects, I am open to exploring exciting job opportunities in the dynamic field of software development.</p>
             </motion.div>
             <motion.div
               variants={xAnimPos50}
