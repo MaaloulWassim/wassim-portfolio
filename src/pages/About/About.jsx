@@ -1,6 +1,7 @@
 import classes from "./About.module.scss";
+import React, { useState } from "react";
 import Footer from "../../components/Footer/Footer";
-
+import { Document, Page, pdfjs } from "react-pdf";
 import { motion } from "framer-motion";
 import {
   h3Animation,
@@ -19,7 +20,13 @@ import { Links } from "../../components/Links/Links";
 import BackToTop from "../../components/BackToTop/BackToTop";
 
 const About = () => {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
   const navigate = useNavigate();
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
+
   return (
     <>
       <motion.main
@@ -56,7 +63,7 @@ const About = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href="./images/about/Wassim_Maaloul_cv.pdf"
+                  href={process.env.PUBLIC_URL + "/images/about/Wassim_Maaloul_CV.pdf"}
                   download
                 >
                   Download CV
@@ -107,6 +114,38 @@ const About = () => {
               />
             </motion.div>
           </div>
+          <div className={classes.cv_section}>
+        <Titlepage text={"Curriculum Vitae"} />
+        <div className={classes.cv_viewer}>
+          <Document
+             file={process.env.PUBLIC_URL + "/images/about/Wassim_Maaloul_CV.pdf"}
+            onLoadSuccess={onDocumentLoadSuccess}
+          >
+            <Page pageNumber={pageNumber} />
+          </Document>
+          <div className={classes.cv_controls}>
+            <p>
+              Page {pageNumber} of {numPages}
+            </p>
+            <Button
+              onClick={() => setPageNumber(pageNumber - 1)}
+              type="button"
+              buttonStyle="outline"
+              disabled={pageNumber <= 1}
+            >
+              Previous
+            </Button>
+            <Button
+              onClick={() => setPageNumber(pageNumber + 1)}
+              type="button"
+              buttonStyle="outline"
+              disabled={pageNumber >= numPages}
+            >
+              Next
+            </Button>
+          </div>
+        </div>
+      </div>
           <motion.div
             variants={paragraphs}
             animate="show"
