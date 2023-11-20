@@ -60,7 +60,7 @@ const About = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href={process.env.PUBLIC_URL + "/images/about/Wassim_Maaloul_CV.pdf"}
+                  href={process.env.PUBLIC_URL + "/images/about/WassimMaaloulCV.pdf"}
                   download
                 >
                   Download CV
