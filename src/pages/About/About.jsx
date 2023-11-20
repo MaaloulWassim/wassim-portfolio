@@ -90,7 +90,7 @@ const About = () => {
               </p>
 
               <p>
-              Proficient in Arabic (my native language), as well as English (B2), French, and German (currently Learning), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
+              Proficient in Arabic (my native language), as well as English (C1), French, and German (currently Learning), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
 
               </p>
 
