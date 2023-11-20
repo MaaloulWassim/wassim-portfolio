@@ -96,23 +96,14 @@ const Experience = () => {
               exit="hide"
               className={classes.heropage_txt_container_text}
             >
-         <ul><li>Conceptualized and developed a web application, the ”Online Code Editor,” a dynamic code editing platform tailored for our company’s devel‑
-opers. Built with a technology stack of .NET and Angular, this platform primarily supports the editing of C# .NET and Angular applications.</li>
-         <li>Innovatively implemented API logic capable of managing multiple versions of a project, streamlining collaboration among development teams.
-</li>
-         <li>Pioneered the creation and implementation of an API that transformed conventional projects into SQL Server database projects, a paradigm
-shift where real‑time databases replaced traditional files and folders, thus enhancing development efficiency.</li>
-         <li>Spearheaded the implementation of advanced algorithms and data structures, optimizing multiple API endpoints to effortlessly manage
-projects with substantial workloads.</li>
-         <li>Developed and deployed a range of API endpoints, catering to project management, project versions, file and folder handling, and file content
-manipulation.
-</li>
-<li>Crafted the user interface (UI) of the code editor, including a dynamic file explorer, context menus, and explorer toolbars, ensuring an intuitive
-and user‑friendly experience.</li>
-<li>Introduced a robust code editor for editing files, complemented by a user‑friendly context menu, enhancing the editing capabilities of develop‑
-ers.</li>
-<li>Implemented a code editor for editing files, complemented by a user‑friendly context menu, enhancing the editing capabilities of developers.</li>
-<li>Built fully automated CI/CD pipelines on Azure DevOps, ensuring the smooth integration and deployment of our online editor</li></ul>
+         <ul><li>Developed the 'Online Code Editor', a dynamic platform tailored for our developers using .NET and Angular, specializing in C# .NET and Angular application editing.</li>
+         <li>Innovated API logic to manage project versions, fostering efficient collaboration within development teams.</li>
+         <li>Pioneered an API transforming conventional projects into SQL Server database projects, marking a shift to real-time databases for heightened development efficiency. </li>
+         <li>Spearheaded advanced algorithm implementation, optimizing multiple API endpoints for seamless project handling with substantial workloads.</li>
+         <li>Crafted an intuitive UI for the code editor, featuring a dynamic file explorer and user-friendly context menus.</li>
+         <li>Introduced a robust code editor and implemented user-friendly context menus, enhancing developers' editing capabilities.</li>
+         <li>Designed and deployed diverse API endpoints for project management, versions, file and folder operations, and content manipulation.</li>
+</ul>
             </motion.div>
             <motion.div
               variants={xAnimPos50}
@@ -148,14 +139,13 @@ ers.</li>
               exit="hide"
               className={classes.heropage_txt_container_text}
             >
-  <ul><li>Contributed to the development of ’IrriApp’, a robust SAAS platform for the agriculture industry. This platform allowed users to remotely manage
-their fields.
-</li><li>Leveraged AWS Lambda functions and the AWS Serverless Framework to create API endpoints for efficient user data management within Dy‑
-namoDB and seamless data storage on AWS S3.</li>
-<li>Designed and implemented a user profile section with various functionalities, including profile editing and password management.</li>
-<li>Integrated Stripe payment methods, enabling users to make secure payments within the app.</li>
-<li>Implemented endpoints for changing user statuses, such as ’Active’ or ’Blocked,’ based on their payment status.</li>
-         </ul>
+  <ul><li>Contributed to the development of 'IrriApp,' a robust SAAS platform revolutionizing agriculture field management.</li>
+  <li>Utilized AWS Lambda functions and the AWS Serverless Framework to establish efficient API endpoints for seamless user data management within DynamoDB and secure data storage on AWS S3. </li>
+  <li>Engineered a comprehensive user profile section with diverse functionalities, encompassing profile editing and password management.</li>
+  <li>Integrated Stripe payment methods to facilitate secure transactions within the application.</li>
+  <li> Implemented endpoints for dynamic user status changes, responding to payment status alterations, such as transitioning between 'Active' and 'Blocked' states.
+</li></ul>
+        
             </motion.div>
             <motion.div
               variants={xAnimPos50}

@@ -20,12 +20,9 @@ import { Links } from "../../components/Links/Links";
 import BackToTop from "../../components/BackToTop/BackToTop";
 
 const About = () => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+
   const navigate = useNavigate();
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-  };
+
 
   return (
     <>
@@ -89,11 +86,11 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-              My name is Wassim Maaloul, a 25-year-old Software Engineer and Full Stack Developer from Tunisia. I hold a bachelor's degree in Software Engineering (National Engineer Diploma) and am currently based in Germany as a student, actively seeking job opportunities.
+              My name is Wassim Maaloul, a 25-year-old Software Engineer and Full Stack Developer from Tunisia. I hold a bachelor's degree in Software Engineering (National Engineer Diploma) and am currently based in Erfurt Germany as an Exchange student, actively seeking job opportunities.
               </p>
 
               <p>
-              Proficient in Arabic (my native language), as well as English, French, and German, I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
+              Proficient in Arabic (my native language), as well as English (B2), French, and German (currently Learning), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
 
               </p>
 
@@ -116,35 +113,8 @@ const About = () => {
           </div>
           <div className={classes.cv_section}>
         <Titlepage text={"Curriculum Vitae"} />
-        <div className={classes.cv_viewer}>
-          <Document
-             file={process.env.PUBLIC_URL + "/images/about/Wassim_Maaloul_CV.pdf"}
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            <Page pageNumber={pageNumber} />
-          </Document>
-          <div className={classes.cv_controls}>
-            <p>
-              Page {pageNumber} of {numPages}
-            </p>
-            <Button
-              onClick={() => setPageNumber(pageNumber - 1)}
-              type="button"
-              buttonStyle="outline"
-              disabled={pageNumber <= 1}
-            >
-              Previous
-            </Button>
-            <Button
-              onClick={() => setPageNumber(pageNumber + 1)}
-              type="button"
-              buttonStyle="outline"
-              disabled={pageNumber >= numPages}
-            >
-              Next
-            </Button>
-          </div>
-        </div>
+        
+      
       </div>
           <motion.div
             variants={paragraphs}
