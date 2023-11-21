@@ -90,7 +90,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup('https://drive.google.com/file/d/19TBCX1tOiGI5QN_AFovTrE-66d6p7RhK/view?usp=drive_link'
+                    openPopup("https://drive.google.com/file/d/19TBCX1tOiGI5QN_AFovTrE-66d6p7RhK/view?usp=drive_link"
                         ,
                       800,
                       600

@@ -48,7 +48,7 @@ const Experience = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href="./images/about/wassim-cv.pdf"
+                  href={"https://drive.google.com/file/d/19TBCX1tOiGI5QN_AFovTrE-66d6p7RhK/view?usp=drive_link"}
                   download
                 >
                   Download CV
