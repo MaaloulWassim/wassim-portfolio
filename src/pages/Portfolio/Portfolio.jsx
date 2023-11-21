@@ -32,7 +32,7 @@ const Portfolio = () => {
                 exit="hide"
                 className={classes.heropage_message}
               >
-                Check out some of my latest projects on my github page. I am currently working on this part of my portfolio.
+                Check out some of my latest projects.
               </motion.p>
             </div>
             <motion.div
