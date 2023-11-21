@@ -218,7 +218,7 @@ export const Portfolio = [
   {
     id: 2,
     text: "Travellers",
-    image: "travlers.png",
+    image: "travlers.PNG",
     alt: "Travellers webpage",
     description: `A responsive web application for comprehensive place, tour, and pin management on a map :
     Developed a cross‑platform travel application using React and Express.js, featuring an interactive map for selecting and saving favorite
@@ -255,7 +255,7 @@ export const Portfolio = [
   {
     id: 5,
     text: "Authenticator",
-    image: "Auth.png",
+    image: "Auth.PNG",
     alt: "Authenticator webpage",
     description: `Authenticator - a user authentificator tool using JWT and Cookies and LocalStorage built usung React.js, Express.js, and MongoDB.
     `,
