@@ -206,61 +206,60 @@ export const ProgrammingLang = [
 export const Portfolio = [
   {
     id: 1,
-    text: "Wealth Healt - HRNet",
-    image: "wealthhealth.jpg",
-    alt: "wealth health webpage",
-    description: `Wealth Healt - This is a project made in React. The idea is to convert a page made in JQuery to React. With a form, the company can create a new employee, and the new employee will be included in a database. The list of all employees can be accessed on another page, in a table that can be organized by name, date, address, etc. To manipulate the data for this project, I used the global redux store.
-    Another goal of the project is to create a React component and publish it on the NPM. 
-    Lighthouse was used to test the performance of the React page to make it faster than the Jquery project.`,
-    github: "https://github.com/MarcosMene/MarcosMeneghetti_14_17082022",
-    site: "https://marcosmeneghetti-wealth-health.netlify.app/",
-    modal: "https://github.com/MarcosMene/react_modal_mm",
-    modalnpm: "https://www.npmjs.com/package/modal_mm",
-  },
+    text: "Easy Booking",
+    image: "ebooking.png",
+    alt: "Easy Booking webpage",
+    description: `A room booking application for tourists and mobility agencies - a responsive web application for room bookings in multiple places using React.js, Express.js, and MongoDB. Implemented user authentication, dy‑
+    namic search functionalities, and seamlessly integrated Stripe for secure transactions.
+    `,
+    github: "https://github.com/MaaloulWassim/Easy-booking",
+    site: "",
+  },  
   {
     id: 2,
-    text: "ArgentBank",
-    image: "argentbank.jpg",
-    alt: "argentbank webpage",
-    description:
-      "The ArgentBank project was made in React. It consists of connecting to the back-end through an API with http request Post and Put. The objectives of the project are: user authentication, token storage and modification of each user's data. Swagger was used to create the modeling of the back-end API.",
-    github: "https://github.com/MarcosMene/MarcosMeneghetti_13_23062022",
-  },
+    text: "Travellers",
+    image: "travlers.png",
+    alt: "Travellers webpage",
+    description: `A responsive web application for comprehensive place, tour, and pin management on a map :
+    Developed a cross‑platform travel application using React and Express.js, featuring an interactive map for selecting and saving favorite
+    places. Implemented map functionality, integrated a social feature for user interaction, and designed user authentication and profiles for
+    personalized experiences.
+    `,
+    github: "https://github.com/MaaloulWassim/travellers",
+    site: "",
+  },  
   {
     id: 3,
-    text: "SportSee",
-    image: "sportsee.jpg",
-    alt: "sportsee webpage",
-    description:
-      "SportSee is a project made in React. This application fetches data and converts it into graphs. For this project I used the Recharts library, which gave me the possibility to create different graphs according to the data of each athlete. With boolean system, there is the possibility to get the data from the back-end or through a JSON file.",
-    github: "https://github.com/MarcosMene/MarcosMeneghetti_12_12052022",
-  },
+    text: "Users Manager ",
+    image: "users.png",
+    alt: "Users Managerwebpage",
+    description: `Users Manager - Built aweb application for usermanagement, employing Spring Boot for the backend and React.js for the dynamic front‑end. Containerized
+    the application using Docker for efficient deployment and scalability.
+    `,
+    github: "https://github.com/MaaloulWassim/User-Manager",
+    site: "",
+  },  
   {
     id: 4,
-    text: "Kasa",
-    image: "kasa.jpg",
-    alt: "kasa webpage",
-    description:
-      "The Kasa project was made in React. The data for this project comes from a Json file. I used styled-components for the styles of each page.",
-    github: "https://github.com/MarcosMene/MarcosMeneghetti_11_19042022",
-  },
+    text: "Project Manager ",
+    image: "gproject.png",
+    alt: "Project Manager webpage",
+    description: `project and task management web application for efficient project coordination, task distribution, and
+    workforce management. - Led the development of a customized application for streamlined workflow, featuring advanced task and project management capabilities.
+    Integrated a secure private mailing and messaging system, enhancing communication between project managers and teams.
+    
+    `,
+    github: "https://github.com/MaaloulWassim/Project-Manager",
+    site: "",
+  },  
   {
     id: 5,
-    text: "Learn@Home",
-    image: "learnhome.jpg",
-    alt: "learn home webpage",
-    description:
-      "Learn@Home is a webdesign project. Besides creating the design of all the pages with Figma, in this project it was also necessary to analyze the client's needs, the mockups and develop the user stories.",
-    figma:
-      "https://www.figma.com/file/CB2wLBVALVrrj4m9hsb8uc/Maquette-Learn%40Home?node-id=0%3A1",
-  },
-  {
-    id: 6,
-    text: "Billed",
-    image: "billed.jpg",
-    alt: "billed webpage",
-    description:
-      "For this project, two forms to connect to: one for the administrator and one for the employee. For the administrator's form it was necessary to debug the code. For the employee form, I had to do unit tests with Jest and also debug the code.",
-    github: "https://github.com/MarcosMene/MarcosMeneghetti_9_28022022",
-  },
+    text: "Authenticator",
+    image: "Auth.png",
+    alt: "Authenticator webpage",
+    description: `Authenticator - a user authentificator tool using JWT and Cookies and LocalStorage built usung React.js, Express.js, and MongoDB.
+    `,
+    github: "https://github.com/MaaloulWassim/mern-auth",
+    site: "",
+  },  
 ];
