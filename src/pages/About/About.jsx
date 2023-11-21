@@ -1,7 +1,7 @@
 import classes from "./About.module.scss";
-import React, { useState } from "react";
+import React, { useState ,useEffect} from "react";
 import Footer from "../../components/Footer/Footer";
-import { Document, Page, pdfjs } from "react-pdf";
+// import { Document, Page, pdfjs } from "react-pdf";
 import { motion } from "framer-motion";
 import {
   h3Animation,
@@ -18,11 +18,36 @@ import { Button } from "../../components/Buttons/Button";
 import { Titlepage } from "../../components/Titlepage/Titlepage";
 import { Links } from "../../components/Links/Links";
 import BackToTop from "../../components/BackToTop/BackToTop";
+import { Document, Page, pdfjs } from "react-pdf";
 
 const About = () => {
 
   const navigate = useNavigate();
+  const openPopup = (url, width, height) => {
+    if (!url) {
+      return;
+    }
 
+    // Define the dimensions of the popup window (width and height).
+    width = width || 600; // You can set default values here.
+    height = height || 400;
+
+    // Calculate the center position of the screen.
+    const left = (window.innerWidth - width) / 2;
+    const top = (window.innerHeight - height) / 2;
+
+    // Open the popup window with specified dimensions and position.
+    const win = window.open(
+      url,
+      '_blank',
+      `width=${width},height=${height},left=${left},top=${top}`
+    );
+
+    // Focus on the popup window.
+    if (win) {
+      win.focus();
+    }
+  };
 
   return (
     <>
@@ -60,8 +85,14 @@ const About = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href={process.env.PUBLIC_URL + "/images/about/WassimMaaloulCV.pdf"}
-                  download
+                  onClick={() =>
+                    openPopup(
+                      'https://drive.google.com/file/d/1z_iI2wLnD-vI83A6J1wKtpRViCjeJv0u/view?usp=drive_link',
+                      600,
+                      400
+                    )
+                  }
+                 
                 >
                   Download CV
                 </motion.a>
@@ -111,11 +142,10 @@ const About = () => {
               />
             </motion.div>
           </div>
-          <div className={classes.cv_section}>
+          {/* <div className={classes.cv_section}>
         <Titlepage text={"Curriculum Vitae"} />
-        
-      
-      </div>
+     
+      </div> */}
           <motion.div
             variants={paragraphs}
             animate="show"

@@ -47,7 +47,7 @@ const Portfolio = () => {
           </div>
 
           {/* portfolio  */}
-          {/* <Works /> */}
+          <Works />
           <motion.div
             variants={h3Animation}
             animate="show"
