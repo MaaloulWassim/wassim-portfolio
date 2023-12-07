@@ -90,7 +90,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1j6wZvv4aOKLrOvpvbAsVNNc070ghbEFf/view?usp=drive_link"
+                    openPopup("https://drive.google.com/file/d/1crjlitttFBk6WNJblEaEFiwPXmSVJH0-/view?usp=drive_link"
                         ,
                       800,
                       600
@@ -121,11 +121,13 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-              My name is Wassim Maaloul, a 25-year-old Software Engineer and Full Stack Developer from Tunisia. I hold a bachelor's degree in Software Engineering (National Engineer Diploma) and am currently based in Erfurt Germany as an Exchange student, actively seeking job opportunities.
+               My name is Wassim Maaloul, a 25-year-old Software Engineer and Full Stack Developer from Tunisia.
+               I hold a masters's degree in Software Engineering (National Engineer Diploma) 
+               and am currently based in Schmalkalden Germany, actively seeking job opportunities.
               </p>
 
               <p>
-              Proficient in Arabic (my native language), as well as English (C1), French, and German (currently Learning), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
+              Proficient in English (C1) , as well as French (B2 level) and German (Beginner) and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
 
               </p>
 

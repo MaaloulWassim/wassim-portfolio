@@ -48,7 +48,7 @@ const Experience = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href={"https://drive.google.com/file/d/1j6wZvv4aOKLrOvpvbAsVNNc070ghbEFf/view?usp=drive_link"}
+                  href={"https://drive.google.com/file/d/1crjlitttFBk6WNJblEaEFiwPXmSVJH0-/view?usp=drive_link"}
                   download
                 >
                   Download CV
@@ -85,7 +85,7 @@ const Experience = () => {
             <motion.p variants={work} animate="show" exit="hide">
                 E-Robot Software
             </motion.p>
-            <span>Tunis - Tunisia  Remote internship 2023</span>
+            <span>Tunis - Tunisia  fullstack web developer 2023</span>
             <div className={classes.heropage_line}></div>
           </motion.div>
           <br />
@@ -126,7 +126,7 @@ const Experience = () => {
           >
             <div className={classes.heropage_line}></div>
             <motion.p variants={work} animate="show" exit="hide">
-          Zone Atex
+          ZAtex
             </motion.p>
             <span>Tunis - Tunisia  Remote internship 2022</span>
             <div className={classes.heropage_line}></div>
