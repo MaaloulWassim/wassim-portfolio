@@ -42,17 +42,17 @@ const Experience = () => {
                 </motion.p>
               </div>
               <div className={classes.buttons}>
-              <motion.a
+              {/* <motion.a
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  href={"https://drive.google.com/file/d/1crjlitttFBk6WNJblEaEFiwPXmSVJH0-/view?usp=drive_link"}
+                  href={"https://drive.google.com/file/d/1bDhiumn8nVoxXlftZUxPXu9Kda5XU5KI/view?usp=drive_link"}
                   download
                 >
                   Download CV
-                </motion.a>
+                </motion.a> */}
                 <Button
                   onClick={() => navigate("/portfolio")}
                   type="button"
@@ -96,14 +96,20 @@ const Experience = () => {
               exit="hide"
               className={classes.heropage_txt_container_text}
             >
-         <ul><li>Developed the 'Online Code Editor', a dynamic platform tailored for our developers using .NET and Angular, specializing in C# .NET and Angular application editing.</li>
-         <li>Innovated API logic to manage project versions, fostering efficient collaboration within development teams.</li>
-         <li>Pioneered an API transforming conventional projects into SQL Server database projects, marking a shift to real-time databases for heightened development efficiency. </li>
-         <li>Spearheaded advanced algorithm implementation, optimizing multiple API endpoints for seamless project handling with substantial workloads.</li>
-         <li>Crafted an intuitive UI for the code editor, featuring a dynamic file explorer and user-friendly context menus.</li>
-         <li>Introduced a robust code editor and implemented user-friendly context menus, enhancing developers' editing capabilities.</li>
-         <li>Designed and deployed diverse API endpoints for project management, versions, file and folder operations, and content manipulation.</li>
+ <ul>
+  <li>Developed a custom online code editor, boosting startup efficiency with a 50% faster coding experience.</li>
+  <li>Contributed to app architecture and design enhancements.</li>
+  <li>Engineered Back‑End REST APIs using .NET 7, and Entity Framework.</li>
+  <li>Crafted and implemented a UI with Angular.</li>
+  <li>Optimized processing time by an impressive 40% through the implementation of cutting‑edge algorithms.</li>
+  <li>Managed databases with SQL Server and SSMS, achieving a 30% reduction in data retrieval times.</li>
+  <li>Conducted rigorous unit tests using xUnit, ensuring a 95% code coverage and debugging multiple API calls.</li>
+  <li>Applied Agile methodologies (Scrum) in daily meetings with the startup’s founder and CEO.</li>
 </ul>
+<br/>
+
+<p>Used technologies: C#, .Net, Angular, TypeScript, SQL Server, xUnit, UX/UI, Git , Github , Slack, Visual Studio</p>
+
             </motion.div>
             <motion.div
               variants={xAnimPos50}
@@ -139,12 +145,16 @@ const Experience = () => {
               exit="hide"
               className={classes.heropage_txt_container_text}
             >
-  <ul><li>Contributed to the development of 'IrriApp,' a robust SAAS platform revolutionizing agriculture field management.</li>
-  <li>Utilized AWS Lambda functions and the AWS Serverless Framework to establish efficient API endpoints for seamless user data management within DynamoDB and secure data storage on AWS S3. </li>
-  <li>Engineered a comprehensive user profile section with diverse functionalities, encompassing profile editing and password management.</li>
-  <li>Integrated Stripe payment methods to facilitate secure transactions within the application.</li>
-  <li> Implemented endpoints for dynamic user status changes, responding to payment status alterations, such as transitioning between 'Active' and 'Blocked' states.
-</li></ul>
+<ul>
+  <li>Contributed to the development of ’IrriApp,’ boosting agriculture field management efficiency by 25%.</li>
+  <li>Engineered API endpoints using AWS Lambda and the Serverless Framework, achieving a 30% improvement in user data management.</li>
+  <li>Innovated the user profile section with advanced features, elevating user interaction by 20%.</li>
+  <li>Integrated Stripe payment methods, ensuring secure and efficient in‑app transactions.</li>
+  <li>Implemented dynamic endpoints for swift user status changes, responding to payment alterations.</li>
+</ul>
+<br/>
+<p>Used technologies: Angular, AWS Serverless Framework, AWS, AWS Lambda, AWS S3, AWS DynamoDb, Stripe, Git, GitLab, Slack, Visual Studio Code</p>
+
         
             </motion.div>
             <motion.div
