@@ -72,7 +72,8 @@ const About = () => {
               </div>
               <div className={classes.buttons}>
                 <Button
-                  onClick={() => navigate("/contact")}
+                  onClick={() =>
+                    (window.location = "mailto:wassim.maaloul@outlook.com")}
                   type="button"
                   buttonStyle="outline"
                 >
@@ -90,7 +91,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1hh1BKryIV0Le2pl3trL1PCS9EEfiydHw/view?usp=drive_link"
+                    openPopup("https://drive.google.com/file/d/1qy-PulhL_dCg0-A80Rd8dMxQHbrt_FG7/view?usp=sharing"
                         ,
                       800,
                       600
@@ -127,12 +128,12 @@ const About = () => {
               </p>
 
               <p>
-              Proficient in English (C1) , as well as French (B2 level) and German (Beginner) and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 2 months, and the most recent one in 2023 for a duration of 6 months in Tunis, Tunisia.
+              Proficient in English (C1) , as well as German (currently learning), French (B2 level),  and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 3 months, and the most recent one in 2023 for a duration of 8 months in Tunis, Tunisia.
 
               </p>
 
               <p>
-              My professional interests span a wide spectrum, including web development, software development, cloud architecture, web3 and blockchain development. Beyond the tech realm, I'm also passionate about 3D animation, graphic design, cinema, manga, and indulge in hobbies like listening to music, football, boxing, and even performing magic tricks. 
+              My professional interests span a wide spectrum, including web development, cloud architecture, web3 and blockchain development. Beyond the tech realm, I'm also passionate about 3D animation, graphic design, and indulge in hobbies like listening to music, football, boxing, and even performing magic tricks. 
               </p>
               <p>Eager to apply my skills and contribute to innovative projects, I am open to exploring exciting job opportunities in the dynamic field of software development.</p>
             </motion.div>

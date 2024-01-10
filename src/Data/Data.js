@@ -261,5 +261,38 @@ export const Portfolio = [
     `,
     github: "https://github.com/MaaloulWassim/mern-auth",
     site: "",
+  },
+  {
+    id: 6,
+    text: "Wourses ",
+    image: "Wourses.png",
+    alt: "Courses ai Web app",
+    description: `Developed a responsive web app with NextAuth for authentication, OpenAI for dynamic courses, YouTube/Unsplash for multimedia, and Stripe for payments. Utilized GitHub Actions, deployed on Vercel, and prioritized security. Demonstrated proficiency in third-party API integration and collaborated cross-functionally for a high-quality product.
+    `,
+    github: "https://github.com/MaaloulWassim/Wourses",
+    site: "",
+  },  
+  {
+    id: 7,
+    text: " DevBlog ",
+    image: "DevBlog.png",
+    alt: "devBlog webpage",
+    description: `
+    Developed DevBlog, a blogger platform for developers, implementing secure user authentication via Microsoft Identity. Established role-based authorization for enhanced access control. Utilized a tech stack including ASP.NET MVC, C#, SQL Server, Entity Framework, JavaScript, Microsoft Identity, GitHub, and Git.
+    
+    `,
+    github: "https://github.com/MaaloulWassim/DevBlog",
+    site: "",
+  },  
+  {
+    id: 8,
+    text: "Taskies",
+    image: "Taskies.PNG",
+    alt: "Taskies webpage",
+    description: `
+    Developed an online task manager with efficient task creation and management, intuitive categorization (New, Completed, In Progress), and a user-friendly interface for a seamless experience.
+    `,
+    github: "https://github.com/MaaloulWassim/Taskies",
+    site: "",
   },  
 ];
