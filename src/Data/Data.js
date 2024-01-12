@@ -287,7 +287,7 @@ export const Portfolio = [
   {
     id: 8,
     text: "Taskies",
-    image: "Taskies.PNG",
+    image: "Taskies.png",
     alt: "Taskies webpage",
     description: `
     Developed an online task manager with efficient task creation and management, intuitive categorization (New, Completed, In Progress), and a user-friendly interface for a seamless experience.
