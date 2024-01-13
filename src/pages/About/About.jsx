@@ -91,7 +91,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1qy-PulhL_dCg0-A80Rd8dMxQHbrt_FG7/view?usp=sharing"
+                    openPopup("https://drive.google.com/file/d/1ifOEppqhc1rYQPwUvvY6C5iPvYGkWmYd/view?usp=sharing"
                         ,
                       800,
                       600
@@ -128,7 +128,7 @@ const About = () => {
               </p>
 
               <p>
-              Proficient in English (C1) , as well as German (currently learning), French (B2 level),  and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 3 months, and the most recent one in 2023 for a duration of 8 months in Tunis, Tunisia.
+              Proficient in English (C1) , as well as German (currently learning), French (B2 level),  and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 6 months, and the most recent one in 2023 for a duration of 9 months in Tunis, Tunisia.
 
               </p>
 
