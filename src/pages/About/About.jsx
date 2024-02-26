@@ -91,7 +91,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1F3u--kTiYLlJw7kB-FHcG3NvgLLWYPsX/view?usp=drive_link"
+                    openPopup("https://drive.google.com/file/d/1UUc_ZgcBGYEZeDe0PpifbiLQC9nwMB0-/view?usp=sharing"
                         ,
                       800,
                       600
