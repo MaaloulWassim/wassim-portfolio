@@ -91,7 +91,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1SwFdBjcCf1psmdCMRH0ol4JrGZlzLI9E/view?usp=drive_link"
+                    openPopup("https://drive.google.com/file/d/1aEcFATp6UyKt633JNG5ZxHysY78t0IDb/view?usp=sharing"
                         ,
                       800,
                       600
@@ -122,13 +122,13 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-               My name is Wassim Maaloul, a 25-year-old Software Engineer and Full Stack Developer from Tunisia.
+               My name is Wassim Maaloul, a 26-year-old Software Engineer and Full Stack Developer from Tunisia.
                I hold a masters's degree in Software Engineering (National Engineer Diploma) 
                and am currently based in Schmalkalden Germany, actively seeking job opportunities.
               </p>
 
               <p>
-              Proficient in English (C1) , as well as German (currently learning), French (B2 level),  and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 6 months, and the most recent one in 2023 for a duration of 9 months in Tunis, Tunisia.
+              Proficient in English (C1) , as well as German (currently learning), French (B2 level),  and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 5 months, and the most recent one in 2023 for a duration of 9 months in Tunis, Tunisia.
 
               </p>
 
@@ -144,7 +144,7 @@ const About = () => {
               className={classes.heropage_txt_container_photo}
             >
               <img
-                src={process.env.PUBLIC_URL + `/images/about/wassimaout.png`}
+                src={process.env.PUBLIC_URL + `/images/about/wassimaoutt.jpg`}
                 alt="me"
               />
             </motion.div>
