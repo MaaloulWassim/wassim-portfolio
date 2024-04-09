@@ -91,7 +91,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1aEcFATp6UyKt633JNG5ZxHysY78t0IDb/view?usp=sharing"
+                    openPopup("https://drive.google.com/file/d/1H_vKwV1hPhLwDfudmAEb90ydxRiJj00_/view?usp=sharing"
                         ,
                       800,
                       600
@@ -144,7 +144,7 @@ const About = () => {
               className={classes.heropage_txt_container_photo}
             >
               <img
-                src={process.env.PUBLIC_URL + `/images/about/wassimaoutt.jpg`}
+                src={process.env.PUBLIC_URL + `/images/about/IMG_E1420cv.png`}
                 alt="me"
               />
             </motion.div>

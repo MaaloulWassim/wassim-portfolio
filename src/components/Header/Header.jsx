@@ -74,7 +74,7 @@ const Header = () => {
                   About
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="experience"
                   onClick={() => setMenuOpen(false)}
@@ -82,7 +82,7 @@ const Header = () => {
                 >
                   Experience
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="skills"
