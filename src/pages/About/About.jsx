@@ -128,7 +128,8 @@ const About = () => {
               </p>
 
               <p>
-              Proficient in English (C1) , as well as German (currently learning), French (B2 level),  and Arabic (my native language), I bring a diverse linguistic skill set to the table. I have gained practical experience through two internships as a Software Engineer, one in 2022 lasting for 5 months, and the most recent one in 2023 for a duration of 9 months in Tunis, Tunisia.
+              Proficient in English (C1) , as well as German (A2 and currently learning), French (B2),  and Arabic (native),
+               with over a year of experience in developing, testing, and delivering robust solutions across multiple programming languages, including C#, Python, and TypeScript. Eager to continuously enhance skills and contribute to innovative projects.
 
               </p>
 
