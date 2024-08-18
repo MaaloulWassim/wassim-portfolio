@@ -296,16 +296,4 @@ export const Portfolio = [
     site: "",
     
   },
-  {
-    id: 9,
-    text: "SmartContractManager",
-    image: "sm.jpg",
-    alt: "Taskies webpage",
-    description: `
-    a smart contract that manages adresses.
-    `,
-    github: "https://github.com/MaaloulWassim/",
-    site: "",
-    
-  },  
 ];
