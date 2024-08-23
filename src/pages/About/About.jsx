@@ -122,9 +122,9 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-               My name is Wassim Maaloul, a 26-year-old Software Engineer and Full Stack Developer from Tunisia.
+               My name is Wassim , a 26-year-old Software Engineer and Full Stack Developer.
                I hold a masters's degree in Software Engineering (National Engineer Diploma) 
-               and am currently based in Schmalkalden Germany, actively seeking job opportunities.
+               and i am currently based in Germany, actively seeking job opportunities.
               </p>
 
               <p>
