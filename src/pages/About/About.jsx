@@ -129,7 +129,7 @@ const About = () => {
 
               <p>
               Proficient in English (C1) , as well as German (A2 and currently learning), French (B2),  and Arabic (native),
-               with over a year of experience in developing, testing, and delivering robust solutions across multiple programming languages, including C#, Python, and TypeScript. Eager to continuously enhance skills and contribute to innovative projects.
+               with over a year of experience in developing, testing, and delivering robust solutions across multiple programming languages, including C#, Python, Java, and TypeScript. Eager to continuously enhance skills and contribute to innovative projects.
 
               </p>
 

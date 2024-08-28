@@ -196,10 +196,16 @@ export const ProgrammingLang = [
     alt: "sql logo",
   },
   {
-    id: 4,
+    id: 5,
     text: "SOLIDITY",
     image: "solidity.png",
     alt: "solidity logo",
+  },
+  {
+    id: 6,
+    text: "JAVA",
+    image: "pngegg.png",
+    alt: "java logo",
   },
 ];
 
@@ -209,7 +215,7 @@ export const Portfolio = [
     text: "Easy Booking",
     image: "ebooking.png",
     alt: "Easy Booking webpage",
-    description: `A room booking application for tourists and mobility agencies - a responsive web application for room bookings in multiple places using React.js, Express.js, and MongoDB. Implemented user authentication, dy‑
+    description: `A room booking application for tourists and mobility agencies - a responsive web application for room bookings in multiple places. Implemented user authentication, dy‑
     namic search functionalities, and seamlessly integrated Stripe for secure transactions.
     `,
     github: "https://github.com/MaaloulWassim/Easy-booking",
@@ -221,7 +227,7 @@ export const Portfolio = [
     image: "travlers.PNG",
     alt: "Travellers webpage",
     description: `A responsive web application for comprehensive place, tour, and pin management on a map :
-    Developed a cross‑platform travel application using React and Express.js, featuring an interactive map for selecting and saving favorite
+    Developed a cross‑platform travel application, featuring an interactive map for selecting and saving favorite
     places. Implemented map functionality, integrated a social feature for user interaction, and designed user authentication and profiles for
     personalized experiences.
     `,
@@ -233,7 +239,7 @@ export const Portfolio = [
     text: "Users Manager ",
     image: "users.png",
     alt: "Users Managerwebpage",
-    description: `Users Manager - Built aweb application for usermanagement, employing Spring Boot for the backend and React.js for the dynamic front‑end. Containerized
+    description: `Users Manager - Built aweb application for usermanagement, employing Spring Boot for the backend and Angular for the dynamic front‑end. Containerized
     the application using Docker for efficient deployment and scalability.
     `,
     github: "https://github.com/MaaloulWassim/User-Manager",
