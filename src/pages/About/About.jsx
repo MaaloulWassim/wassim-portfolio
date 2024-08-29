@@ -86,12 +86,12 @@ const About = () => {
                   transition={{ duration: 0.5 }}
                   exit={{ opacity: 0, scale: 0 }}
                   className={classes.buttonLink}
-                  // href={"https://drive.google.com/file/d/19TBCX1tOiGI5QN_AFovTrE-66d6p7RhK/view?usp=drive_link"}
+                  // href={"""}
                   target="_blank"
                   rel="noopener noreferrer"
                   download
                   onClick={() =>
-                    openPopup("https://drive.google.com/file/d/1-jIOIe83-_Zt7vwhvvbtZIxYxPuDcPoa/view?usp=drive_link"
+                    openPopup(""
                         ,
                       800,
                       600
@@ -122,21 +122,18 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-               My name is Wassim , a 26-year-old Software Engineer and Full Stack Developer.
-               I hold a masters's degree in Software Engineering (National Engineer Diploma) 
-               and i am currently based in Germany, actively seeking job opportunities.
+              Hello! I'm Wassim, a 26-year-old Software Engineer and Full-Stack Developer currently based in Germany. I hold a Master's Degree in Software Engineering (National Engineer Diploma) and am actively seeking exciting job opportunities where I can apply my skills and grow as a professional.
               </p>
 
               <p>
-              Proficient in English (C1) , as well as German (A2 and currently learning), French (B2),  and Arabic (native),
-               with over a year of experience in developing, testing, and delivering robust solutions across multiple programming languages, including C#, Python, Java, and TypeScript. Eager to continuously enhance skills and contribute to innovative projects.
-
+              I am fluent in English (C1) and proficient in French (B2), with a solid foundation in German (A2) that I am continuously improving. My native language is Arabic. With over a year of hands-on experience in developing, testing, and delivering robust solutions across multiple programming languages—including C#, Python, Java, and TypeScript—I am passionate about building high-quality software that solves real-world problems.
               </p>
 
               <p>
-              My professional interests span a wide spectrum, including web development, cloud architecture, web3 and blockchain development. Beyond the tech realm, I'm also passionate about 3D animation, graphic design, and indulge in hobbies like listening to music, football, boxing, and even performing magic tricks. 
+              My professional interests are diverse, spanning web development, cloud architecture, and emerging technologies like Web3 and blockchain. I am driven by a desire to stay at the forefront of technology and contribute to innovative, impactful projects.
               </p>
-              <p>Eager to apply my skills and contribute to innovative projects, I am open to exploring exciting job opportunities in the dynamic field of software development.</p>
+              <p>Outside of work, I have a strong passion for 3D animation and graphic design. I also enjoy a variety of hobbies, including listening to music, playing football, boxing, and even performing magic tricks. These interests fuel my creativity and keep me energized, both in and out of the workplace.</p>
+              <p>I am eager to bring my expertise to innovative teams and am open to exploring new opportunities in the dynamic field of software development.</p>
             </motion.div>
             <motion.div
               variants={xAnimPos50}
