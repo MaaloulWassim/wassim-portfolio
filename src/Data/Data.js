@@ -260,13 +260,12 @@ export const Portfolio = [
   },  
   {
     id: 5,
-    text: "Authenticator",
-    image: "Auth.PNG",
-    alt: "Authenticator webpage",
-    description: `Authenticator - a user authentificator tool using JWT and Cookies and LocalStorage built usung React.js, Express.js, and MongoDB.
-    `,
-    github: "https://github.com/MaaloulWassim/mern-auth",
-    site: "",
+    text: "HS Web App Authenticator",
+    image: "authenticator.PNG",
+    alt: "High-Secured Web App Authenticator",
+    description: "Developed a secure authentication system for web applications using TypeScript, JWT, Cookies, and Git. The system features multi-factor authentication and session management, ensuring secure user authentication and data integrity.",
+    github: "https://github.com/MaaloulWassim/Secure-Authenticator",
+    site: ""
   },
   {
     id: 6,
@@ -302,4 +301,40 @@ export const Portfolio = [
     site: "",
     
   },
+    {
+      "id": 9,
+      "text": "Banking Management System",
+      "image": "banking.png",
+      "alt": "Banking Management System",
+      "description": "Developed a comprehensive Banking Management System using C#, .NET Core, SQL Server, and Angular. The system streamlined banking operations, improving transaction processing and customer management. Implemented secure authentication and authorization mechanisms using JWT, ensuring data privacy and protection against unauthorized access.",
+      "github": "https://github.com/MaaloulWassim/BankingManagementSystem",
+      "site": ""
+    },
+    {
+      "id": 10,
+      "text": "Chess Game with AI Integration",
+      "image": "chessgame.png",
+      "alt": "Chess Game with AI Integration",
+      "description": "Created an advanced Chess Game using C#, .NET, Unity, ML.NET, and Azure. The game features AI-driven opponents that adapt to the player's skill level, providing an engaging and challenging experience. Implemented a multiplayer mode using .NET SignalR, allowing real-time competition between players.",
+      "github": "https://github.com/MaaloulWassim/Chessy.Ai",
+      "site": ""
+    },
+    {
+      "id": 11,
+      "text": "FlappyBird Game Clone",
+      "image": "flappybird.png",
+      "alt": "FlappyBird Game Clone",
+      "description": "Recreated the classic Flappy Bird game using C#, Unity, and Git. The game features enhanced graphics and gameplay mechanics, including custom sprites and animations for an engaging user experience.",
+      "github": "https://github.com/MaaloulWassim/Flapppy",
+      "site": ""
+    },
+    {
+      "id": 12,
+      "text": "Twitter/X Scheduler",
+      "image": "scheduler.png",
+      "alt": "Twitter/X Scheduler",
+      "description": "Developed a scheduling tool for automating Twitter/X posts using C#, .NET 8, Hangfire, and Git. The tool features a robust API for scheduling and managing posts, with support for timed and recurring tasks.",
+      "github": "https://github.com/MaaloulWassim/XScheduler",
+      "site": ""
+    }
 ];

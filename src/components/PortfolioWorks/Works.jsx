@@ -31,6 +31,7 @@ const Works = () => {
                     process.env.PUBLIC_URL + `/images/portfolio/${item.image}`
                   }
                   alt={item.alt}
+                  
                 />
               </motion.div>
             </Link>
