@@ -261,7 +261,7 @@ export const Portfolio = [
   {
     id: 5,
     text: "HS Web App Authenticator",
-    image: "authenticator.PNG",
+    image: "authenticator.png",
     alt: "High-Secured Web App Authenticator",
     description: "Developed a secure authentication system for web applications using TypeScript, JWT, Cookies, and Git. The system features multi-factor authentication and session management, ensuring secure user authentication and data integrity.",
     github: "https://github.com/MaaloulWassim/Secure-Authenticator",
