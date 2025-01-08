@@ -122,11 +122,11 @@ const About = () => {
               className={classes.heropage_txt_container_text}
             >
               <p>
-              Hello! I'm Wassim, a 26-year-old Software Engineer and Full-Stack Developer currently based in Germany. I hold a Master's Degree in Software Engineering (National Engineer Diploma) and am actively seeking exciting job opportunities where I can apply my skills and grow as a professional.
+              Hello! I'm Wassim, a 26-year-old Software Engineer and Full-Stack Developer originally from Tunisia and currently based in Germany. I hold a Master's Degree in Software Engineering (National Engineer Diploma) and am actively seeking exciting job opportunities where I can apply my skills and grow as a professional.
               </p>
 
               <p>
-              I am fluent in English (C1) and proficient in French (B2), with a solid foundation in German (A2) that I am continuously improving. My native language is Arabic. With over a year of hands-on experience in developing, testing, and delivering robust solutions across multiple programming languages—including C#, Python, Java, and TypeScript—I am passionate about building high-quality software that solves real-world problems.
+              I am fluent in both English and French, with a solid foundation in German (Level B1 currently) that I am continuously improving. With over a year of hands-on experience in developing, testing, and delivering robust solutions across multiple programming languages—including C#, Python, Java, and TypeScript—I am passionate about building high-quality software that solves real-world problems.
               </p>
 
               <p>
